@@ -6,14 +6,39 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		985E875B2D053702004044E0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 985E875A2D053702004044E0 /* README.md */; };
+		985E875D2D05370C004044E0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 985E875C2D05370C004044E0 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		985E87242D03EEFF004044E0 /* SimpleMacOSDrawingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleMacOSDrawingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		985E875A2D053702004044E0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		985E875C2D05370C004044E0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		985E87622D053881004044E0 /* Exceptions for "ReadmeAssets" folder in "SimpleMacOSDrawingApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				mousePressureDemo.gif,
+			);
+			target = 985E87232D03EEFF004044E0 /* SimpleMacOSDrawingApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		985E87262D03EEFF004044E0 /* SimpleMacOSDrawingApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SimpleMacOSDrawingApp;
+			sourceTree = "<group>";
+		};
+		985E87602D053875004044E0 /* ReadmeAssets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				985E87622D053881004044E0 /* Exceptions for "ReadmeAssets" folder in "SimpleMacOSDrawingApp" target */,
+			);
+			path = ReadmeAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +57,9 @@
 		985E871B2D03EEFF004044E0 = {
 			isa = PBXGroup;
 			children = (
+				985E87602D053875004044E0 /* ReadmeAssets */,
+				985E875A2D053702004044E0 /* README.md */,
+				985E875C2D05370C004044E0 /* .gitignore */,
 				985E87262D03EEFF004044E0 /* SimpleMacOSDrawingApp */,
 				985E87252D03EEFF004044E0 /* Products */,
 			);
@@ -62,6 +90,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				985E87262D03EEFF004044E0 /* SimpleMacOSDrawingApp */,
+				985E87602D053875004044E0 /* ReadmeAssets */,
 			);
 			name = SimpleMacOSDrawingApp;
 			packageProductDependencies = (
@@ -109,6 +138,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				985E875D2D05370C004044E0 /* .gitignore in Resources */,
+				985E875B2D053702004044E0 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

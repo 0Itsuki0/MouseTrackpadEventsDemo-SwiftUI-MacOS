@@ -13,5 +13,12 @@ struct SimpleMacOSDrawingAppApp: App {
         WindowGroup {
             ContentView()
         }
+        .windowResizability(.contentSize)
+        
+        WindowGroup(id: MousePressureDemo.identifier) {
+            MousePressureDemo()
+        }
+        .windowResizability(.contentSize)
+
     }
 }
