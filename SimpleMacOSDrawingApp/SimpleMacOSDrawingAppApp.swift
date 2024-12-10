@@ -11,7 +11,7 @@ import SwiftUI
 struct SimpleMacOSDrawingAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TrackpadMappingNSViewDemo()
         }
         .windowResizability(.contentSize)
         
