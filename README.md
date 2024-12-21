@@ -96,3 +96,13 @@ struct TrackpadMappingPureSwiftUI: View {
 
 For more details, please refer to [SwiftUI/MacOS: Map Finger Position on Trackpad to View)]()
 
+
+
+
+## Mouse/Cursor Trapping
+
+A simple [Trapping View](./SimpleMacOSDrawingApp/MouseTrappingDemo.swift) for demoing on how trap mouse position within the window.
+
+![](./ReadmeAssets/mouseTrappingDemo.gif)
+
+For more details, please refer to [SwiftUI/MacOS: Trap Mouse Cursor in Window)]()

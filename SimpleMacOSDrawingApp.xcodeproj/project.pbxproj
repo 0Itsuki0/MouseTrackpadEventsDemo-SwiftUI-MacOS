@@ -22,6 +22,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				mousePressureDemo.gif,
+				mouseTrappingDemo.gif,
 				trackpadMappingDemo.gif,
 			);
 			target = 985E87232D03EEFF004044E0 /* SimpleMacOSDrawingApp */;

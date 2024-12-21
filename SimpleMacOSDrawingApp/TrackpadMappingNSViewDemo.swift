@@ -51,6 +51,8 @@ private struct TrackpadMappingRepresentable: NSViewRepresentable {
 }
 
 struct TrackpadMappingNSViewDemo: View {
+    static let identifier = "TrackpadMappingDemo"
+
     @State private var normalizedPoints: [CGPoint] = []
     var body: some View {
         ZStack {
