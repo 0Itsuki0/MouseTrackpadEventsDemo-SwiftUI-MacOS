@@ -36,7 +36,18 @@ extension GeometryProxy {
 ![](./ReadmeAssets/mouseEventSwiftUIApproach.gif)
 
 
-For more details, please refer to [SwiftUI/MacOS: Handle Mouse/Trackpad Events (Mouse Up, Mouse Down, Pressure Change)]()
+For more details, please refer to [SwiftUI/MacOS: Handle Mouse/Trackpad Events (Mouse Up, Mouse Down, Pressure Change)](https://medium.com/@itsuki.enjoy/swiftui-macos-handle-mouse-trackpad-events-mouse-up-mouse-down-pressure-change-f3ff9755be0e)
+
+
+
+## Mouse Enter and Exit
+
+[Tracking View](./SimpleMacOSDrawingApp/NSTrackingViewDemo.swift) for demoing on how to track Mouse Enter and exit events with `NSTrackingView`.
+
+![](./ReadmeAssets/trackingViewDemo.gif)
+
+For more details, please refer to [SwiftUI/MacOS: NSTrackingView For Mouse Enter and Mouse Exit)]()
+
 
 
 
@@ -105,4 +116,5 @@ A simple [Trapping View](./SimpleMacOSDrawingApp/MouseTrappingDemo.swift) for de
 
 ![](./ReadmeAssets/mouseTrappingDemo.gif)
 
-For more details, please refer to [SwiftUI/MacOS: Trap Mouse Cursor in Window)]()
+For more details, please refer to [SwiftUI/MacOS: Trap Mouse Cursor in Window)](https://medium.com/@itsuki.enjoy/swiftui-macos-trap-mouse-cursor-in-window-41e08e3a8c12)
+

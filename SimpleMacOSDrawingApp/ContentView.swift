@@ -16,11 +16,23 @@ struct ContentView: View {
                 Button(action: {
                     openWindow(id: MousePressureDemo.identifier)
                 }, label: {
-                    Text("Mouse Event")
+                    Text("Mouse Event (1)")
                 })
                 .font(.title3)
                 
                 Text("Demo for handling mouseDown, mouseUp, and pressureChange")
+                    .font(.caption)
+            }
+            
+            VStack(spacing: 8) {
+                Button(action: {
+                    openWindow(id: NSTrackingViewDemo.identifier)
+                }, label: {
+                    Text("Mouse Event (2)")
+                })
+                .font(.title3)
+                
+                Text("Demo for tracking mouse enter and exit.")
                     .font(.caption)
             }
             
@@ -56,7 +68,7 @@ struct ContentView: View {
 
         }
         .padding()
-        .frame(width: 400, height: 240)
+        .frame(width: 440, height: 320)
         .fixedSize()
 
     }

@@ -15,6 +15,11 @@ struct SimpleMacOSDrawingAppApp: App {
         }
         
         WindowGroup {
+            NSTrackingViewDemo()
+        }
+        .windowResizability(.contentSize)
+        
+        WindowGroup {
             TrackpadMappingNSViewDemo()
         }
         .windowResizability(.contentSize)
