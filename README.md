@@ -46,7 +46,7 @@ For more details, please refer to [SwiftUI/MacOS: Handle Mouse/Trackpad Events (
 
 ![](./ReadmeAssets/trackingViewDemo.gif)
 
-For more details, please refer to [SwiftUI/MacOS: NSTrackingView For Mouse Enter and Mouse Exit)]()
+For more details, please refer to [SwiftUI/MacOS: NSTrackingView For Mouse Enter and Mouse Exit)](https://medium.com/@itsuki.enjoy/swiftui-macos-nstrackingview-for-mouse-enter-and-mouse-exit-91cb3d688e3b)
 
 
 
